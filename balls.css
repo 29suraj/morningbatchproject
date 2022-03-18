@@ -1,0 +1,80 @@
+body{
+    background-color: grey;
+}
+ul{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    margin-left: 500px;
+    margin-top: 300px;
+    list-style: none;
+    display: flex;
+    
+
+}
+
+ul li{
+    border: 1px solid white;
+    background-color: white;
+    width: 30px;
+    height:20px;
+    border-radius: 50%;
+    /* color: white; */
+    animation-name: jumping;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    justify-content: space-between;
+
+    
+}
+
+@keyframes jumping
+{
+    0%{
+        transform: translateY(0px);
+    }
+   
+    50%{
+        transform:translateY(-180px);
+    }
+    
+    100%{
+        transform:translateY(0px);
+    } 
+}
+
+ul li:nth-child(1)
+{
+    animation-duration: 0s;
+}
+
+ul li:nth-child(2)
+{
+    animation-duration: 0.2s;
+}
+
+ul li:nth-child(3)
+{
+    animation-duration: 0.6s;
+}
+
+ul li:nth-child(4)
+{
+    animation-duration: 1s;
+}
+
+ul li:nth-child(5)
+{
+    animation-duration: 1.2s;
+}
+
+ul li:nth-child(6)
+{
+    animation-duration: 1.4s;
+}
+
+ul li:nth-child(7)
+{
+    animation-duration: 1.8s;
+}

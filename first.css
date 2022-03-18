@@ -1,0 +1,45 @@
+h1{
+    /* color:rgb(109,131,145);
+    background-color:#fcba03;
+    text-align: right;
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-family: 'Meow Script', cursive; */
+/* 
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;  */
+
+    border:rgb(206, 192, 158) solid 10px;
+    width:100px;
+    height:50px;
+    box-sizing: border-box;
+    /* padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px; */
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 30;
+
+    /* padding:10px; */
+
+    padding:10px 20px;
+
+
+
+
+    /* color:darkgreen;
+    color:darkorchid; */
+
+
+
+}
+
+a{
+    text-decoration:none;
+}

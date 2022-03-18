@@ -1,0 +1,79 @@
+body{
+    background-color: grey;
+}
+
+.outer{
+    border: 1px solid white;
+    background-color: white;
+    width: 380px;
+    height: 10px;
+    margin-left: 600px;
+    margin-top: 300px;
+    display: flex;
+}
+
+.one{
+    width: 4px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    margin-left: 57px;
+    transform-origin: top;
+    
+}
+
+.one::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 0px;
+    transform: translateX(-50%);
+}
+
+.outer>div:first-child{
+    animation-name: leftbar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+.outer>div:last-child{
+    animation-name: rightbar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes leftbar{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(60deg);
+    }
+    80%
+    {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rightbar{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(-60deg);
+    }
+    80%
+    {
+        transform: rotate(0deg);
+    }
+}

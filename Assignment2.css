@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    align-items: center;
+    color:whitesmoke;
+    background-color:red;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    float: left;
+}
+
+@media screen and (max-width:1000px)
+{   nav{
+        font-size: 30px;
+        }
+        body{
+            background-color: lightblue;
+        }
+    
+}
+
+@media screen and (max-width:800px)
+{
+    nav{
+        font-size:50px;
+        
+    }
+    body{
+        background-color: crimson;
+    }
+}
+
+@media screen and(max-width:600px)
+{
+    img{
+        width: 500px;
+    }
+}

@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+
+#outer{
+    margin-left: 280px;
+    margin-top: 150px;
+    border: 2px solid orange;
+    height: 290px;
+    width: 365px;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    background-color: orange;
+    position:relative;
+    overflow: hidden;
+}
+
+#outer::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    z-index: -1;
+}
+
+#outer:hover::before{
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    z-index: 0;
+    transform:translateY(-340px);
+}

@@ -1,0 +1,109 @@
+/* h1,p,h3{
+    color:red;
+} */
+
+/* *{
+    background-color: blue;
+    color:red;
+} */
+
+/* #first{
+    color: red;
+}
+
+.second{
+    color: magenta;
+}
+
+ol>li{
+    color:springgreen;
+} */
+
+/* ol li{
+    color: blue;
+} */
+
+/* input{
+    width:300px;
+} */
+
+/* #lastbox{
+    width:100px;
+} */
+/* 
+input[name="firstname"]
+{
+    width:400px;
+    height:50px;
+} */
+
+/* a:link{
+    color:springgreen;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:active{
+    color:violet;
+} */
+
+
+/* input{
+    background-color: black;
+    color: white;
+}
+
+input:disabled{
+    background-color: red;
+}
+
+#three:valid{
+    color: green;
+}
+
+#three:invalid{
+    color: red;
+}
+
+#one:focus{
+    background-color: black;
+} */
+
+
+/* h1:first-child{
+    color: red;
+}
+
+h1:last-child{
+    color: blue;
+}
+
+h1:nth-of-type(2n)
+{
+    background-color: crimson;
+} */
+
+
+#two:in-range{
+    border: 1px solid green;
+}
+
+#two:out-of-range{
+    border:1px solid red;
+}
+
+input:read-only{
+    background-color: hotpink;
+    color: indigo;
+}
+
+/* input:read-write{
+    background-color: lawngreen;
+    color: lightseagreen;
+} */

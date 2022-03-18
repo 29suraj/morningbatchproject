@@ -1,0 +1,19 @@
+h1::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: red;
+}
+
+h1::before{
+    content: " Welcome";
+}
+
+h2::after{
+    content:" Javacsript";
+}
+
+::marker{
+    color: blue;
+}

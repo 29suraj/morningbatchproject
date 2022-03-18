@@ -1,0 +1,26 @@
+.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    background-color: lightskyblue;
+    margin: 200px auto;
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flip{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    50%
+    {
+        transform: rotateX(360deg);
+    }
+    
+    100%
+    {
+        transform: rotateY(180deg);
+    }
+}

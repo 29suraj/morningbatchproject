@@ -1,0 +1,64 @@
+nav a{
+    text-decoration: none;
+    
+}
+
+.button-info{
+    background-color: dodgerblue;
+}
+
+.meta{
+    background-color: dodgerblue;
+}
+
+.gta{
+    background-color:green;
+}
+
+.city{
+    background-color: green;
+}
+
+.sum{
+    background-color: dodgerblue;
+}
+
+.ludo{
+    background-color: grey;
+}
+
+.display{
+    text-align:center;
+}
+
+.lead{
+    text-align:center;
+}
+
+.minus{
+    text-align:center;
+}
+
+.question{
+    text-align:center;
+}
+
+.sphere{
+    text-align:center;
+}
+
+.circle{
+    text-align:center;
+}
+
+.magnet{
+    text-align:center;
+}
+
+.zee{
+    text-align:right;
+}
+
+.sun{
+    background-color:dodgerblue;
+}

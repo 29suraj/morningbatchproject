@@ -1,0 +1,53 @@
+img:hover{
+  transition-property: transform;
+  transition-duration: 3s;
+  transform:rotateZ(360deg) translateZ(500px);
+  position: absolute;
+  width: 400px;
+
+}
+
+body{
+  perspective: 600px;
+  position: relative;
+}
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  }
+
+  

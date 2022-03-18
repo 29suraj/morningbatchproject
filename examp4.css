@@ -1,0 +1,36 @@
+body{
+    background-color: red;
+}
+
+h1{
+    color: white;
+    margin-left: 500px;
+    margin-top: 250px;
+}
+
+span::before{
+    content: " transition";
+    text-transform: uppercase;
+    animation-name: changing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes changing{
+    0%
+    {
+        content: " transition";
+        color: blue;
+    }
+    50%
+    {
+        content: " transform";
+        color: black;
+    }
+    100%
+    {
+        content: " animation";
+        color: orangered;
+    }
+}

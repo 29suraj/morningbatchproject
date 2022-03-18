@@ -1,0 +1,76 @@
+#outer
+{
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:center;     ------works on main axis(x axis) -------- */
+    /* align-items:flex-start;    ------works on cross axis (yaxis)------ */
+    
+}
+
+#third{
+    /* align-self:flex-start;       -------yaxis-------- */
+}
+
+/* #fullouter
+{
+    border: 1px solid orange;
+    width: 600px;
+    height: 130px;
+    position: relative;
+} */
+
+#first,#second,#third,#four,#five
+{
+    border: 1px solid green;
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+}
+/* 
+#first
+{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    bottom: 20px;
+    right: 20px;
+    
+} */
+
+#first
+{
+    background-color: green;
+    order:4;
+    
+}
+#second
+{
+    background-color: blue;
+    order:5;
+    
+}
+#third
+{
+    background-color: orangered;
+    order:3;
+    
+}
+#four{
+    background-color: yellow;
+    order:2;
+}
+
+#five{
+    background-color: magenta;
+    order:1;
+}
+
+/* #second
+{
+    position:absolute;
+    right: 30px;
+   
+} */

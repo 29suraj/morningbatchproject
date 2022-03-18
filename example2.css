@@ -1,0 +1,12 @@
+#outer{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+p{
+    text-align: center;
+    
+}

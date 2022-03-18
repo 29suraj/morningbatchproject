@@ -1,0 +1,17 @@
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+    border: 1px solid blue;
+    display:inline-flex;
+    justify-content:space-evenly;
+    width:100px;
+    height:40px;
+    background-color: blue;
+    color: white;
+    align-items: stretch;
+    text-align:right;
+    
+    
+}
+
+.container{
+    flex-direction:row;
+}
